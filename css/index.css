@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.navbar {
+    padding: 10px;
+    font-family: "Sedan", serif;
+  }
+  .navbar-brand {
+    font-weight: bold;
+  }
+  .navbar-nav {
+    margin-left: auto;
+  }
+  .nav-item {
+    margin-right: 10px;
+  }
+  .LetTalk{
+    background-color: #d5e4cf;
+    border-radius:10px;
+}
+
+
+/* first page styles */
+#interduce{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-color: #d5e4cf;
+}
+.interduce-img{
+  max-width: 400px;
+  border-radius:30px;
+  float: right;
+  margin-left: 20px;
+  border: 3px solid #d37851;
+  transition: transform 0.3s ease-in;
+}
+.interduce-img:hover {
+  transform: scale(1.05); 
+}
+.wrapper{
+  margin: 100px auto;
+  width: 60%;
+}
+#title{
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+  display:flex ;
+  color: #d37851;
+  font-size: 38px;
+  font-family: "Sedan", serif;
+}
+span{
+  color:#60774c;
+  font-family: "Ojuju", sans-serif;
+}
+.text-box h3, h1, p{
+  font-family: "Sedan", serif;
+  margin-top: 120px;
+}
+.Morsal-Marvi{
+  color: #d37851;
+  font-size:20px;
+  font-family: "Sedan", serif;
+}
+.container{
+  border-radius: 20px;
+  color: #60774c;
+  text-align: center;
+  margin-top: 20px;
+}
+.portfolio-card{
+  margin: 10px;
+}
+.card-title{
+  margin-top: 3px;
+}
+.portfolio{
+  text-align: center;
+  padding: 10px;
+  margin-top: 90px;
+  font-family: "Brygada 1918", serif;
+  margin-bottom: 100px;
+}
+.about-text{
+  width: 95%;
+}
+#about.me{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-img{
+  max-width:400px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in;
+}
+.about-content{
+  margin: 40px auto;
+  width: 60%;
+}
+.about-text h3,h1,p{
+  font-family: "Sedan", serif;
+}
+
+
+/* testemonial sectio */
+li{
+  padding: 3px;
+  margin-bottom: 8px;
+}
+.testimonial {
+text-align: center;
+}
+.testimonial img {
+width: 280px;
+height: 280px;
+border-radius: 50%;
+margin-bottom: 20px;
+align-items: center;
+}
+
+/* services section */
+.pricing-cards {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-family: "Brygada 1918", serif;
+  
+}
+.glassmorphism-card {
+  background: rgba(213, 228, 207, 0.7);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  width: 250px;
+  padding: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #3a3a3a;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+.glassmorphism-card:hover {
+  transform: scale(1.05); 
+}
+.glassmorphism-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.glassmorphism-card p {
+  font-size: 16px;
+}
+.pricing-text{
+  margin-top: 40px;
+  font-family: "Brygada 1918", serif;
+}
+#services{
+  background-color: #d5e4cf;
+  padding: 10px;
+}
+.service-card{
+  margin: 10px;
+}
+.provide{
+  color: #d37851;
+}
+.services-text{
+  font-family: "Brygada 1918", serif;
+}
+.row{
+  justify-content: center;
+  padding: 18px; 
+}
+.service-card{
+  transition: transform 0.3s ease-in-out;
+}
+.service-card:hover {
+  transform: scale(1.05); 
+}
+.gift{
+  width: 50px;
+  height: 50px;}
+
+
+/* let;s talk section */
+#talk{
+  background-color:#fcf7ec;
+  font-family: "Brygada 1918", serif;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: "Brygada 1918", serif;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #333;
+  font-family: "Brygada 1918", serif;
+}
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Brygada 1918", serif;
+  background-color: #d5e4cf;
+}
+.submit{
+  margin-top: 2rem;
+  padding-bottom:2rem;
+
+}
+input{
+  background-color: #d5e4cf;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Whisper", cursive;
+  transition: background-color 0.3s ease;
+}
+input:hover {
+  background-color: #98a88f;
+}
+textarea:hover{
+  background-color: #98a88f;
+}
+
+
+
+.footer {
+  
+  background-color: #b5c8ac;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social-icons {
+  font-size: 20px;
+  color: #60774c;
+  margin: 0 10px;
+}
+.fab{
+  color:#333;
+}
+
+/* responsive section */
+  @media (max-width: 600px) {
+    .interduce-img {
+      max-width: 330px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+    .about-img{
+      max-width: 300px;
+      margin-left: 10px;
+    }
+    .wrapper {
+      margin: 50px auto; 
+      width: 90%;
+    }
+  
+    .text-box h3 {
+      margin-top: 64px; 
+    }
+  
+    .text-box {
+      text-align: center;
+    }
+    
+    .about-content {
+      margin: 50px auto; 
+      width: 90%; 
+    }
+  }
+
+ 
+
+
+
+
